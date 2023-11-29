@@ -57,7 +57,7 @@ jobs:
               echo "Van-DumprX" > .gitlab_group  # Only for Gitlab
               echo "${{ secrets.PRIV_SSH_KEY }}" > ~/.ssh/id_ed25519  # Only for Gitlab
               echo "${{ secrets.BOT_TOKEN }}" > .tg_token
-              echo "${{ secrets.CHAT_ID }}" > .tg_chat
+              echo "-4042203110" > .tg_chat
               echo "gitlab.com" > .gitlab_instance
               chmod 600 ~/.ssh/id_ed25519
 
