@@ -26,11 +26,11 @@ env:
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
        - name: Checkouts
-         uses: actions/checkout@v4
+         uses: rokibhasansagar/slimhub_actions@main
 
        - name: Clone Our Firmware Dumper
          run: |
