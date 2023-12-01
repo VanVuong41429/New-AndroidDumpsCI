@@ -30,7 +30,7 @@ jobs:
 
     steps:
        - name: Checkouts
-         uses: rokibhasansagar/slimhub_actions@main
+         uses: actions/checkout@v4
 
        - name: Clone Our Firmware Dumper
          run: |
