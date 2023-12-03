@@ -10,4 +10,4 @@ This CI uses the [Van-DumprX](https://github.com/VanVuong41429/Van-DumprX) to du
 
 You can join our Telegram channel to receive updates of new dumps.
 
-- [Van DumprX](https://t.me/+O3FtDEzcRd4zMGI1)
+- [@Van_DumprX](https://t.me/Van_DumprX)
