@@ -27,7 +27,6 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 999
 
     steps:
        - name: Checkouts
