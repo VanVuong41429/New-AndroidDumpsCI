@@ -24,26 +24,23 @@ jobs:
 
     steps:
        - name: Checkouts
-         uses: actions/checkout@v2
+         uses: rokibhasansagar/slimhub_actions@main
 
        - name: Clone Dumpyara
          run: |
-              git clone https://github.com/AndroidDumps/dumpyara.git
+              git clone https://github.com/Van-dumpyara/dumpyara.git
 
        - name: Setup Dumpyara environment
          working-directory: dumpyara
          run: |
               sudo bash setup.sh
-              git config --global user.name "Sushrut1101"
-              git config --global user.email "guptasushrut@gmail.com"
+              git config --global user.name "VanVuong41429"
+              git config --global user.email "vanvuong41429@gmail.com"
 
        - name: Setup config envs
          working-directory: dumpyara
          run: |
-              echo "${{ secrets.GIT_TOKEN }}" > .github_token
-              echo "${{ secrets.GIT_ORG_NAME }}" > .github_orgname
-              echo "${{ secrets.BOT_TOKEN }}" > .tg_token
-              echo "${{ secrets.CHAT_ID }}" > .tg_chat
+              echo "${{ secrets.GIT_TOKEN }}" > .githubtoken
 
        - name: Run the Extra Command
          working-directory: dumpyara
