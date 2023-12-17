@@ -1,6 +1,7 @@
 # Android Dumps CI
 
-![](https://github.com/VanVuong41429/New-AndroidDumpsCI/actions/workflows/DumprX.yml/badge.svg)
+[![DumprX](https://github.com/VanVuong41429/New-AndroidDumpsCI/actions/workflows/DumprX.yml/badge.svg)](https://github.com/VanVuong41429/New-AndroidDumpsCI/actions/workflows/DumprX.yml)
+[![Dumpyara](https://github.com/VanVuong41429/New-AndroidDumpsCI/actions/workflows/dumpyara.yml/badge.svg)](https://github.com/VanVuong41429/New-AndroidDumpsCI/actions/workflows/dumpyara.yml)
 
 > CI for Android Firmwares Dumps
 
