@@ -69,7 +69,7 @@ jobs:
        - name: Start Dumping
          working-directory: DumprX
          run: |
-              mkdir out && cd out
+              mkdir XT2261-2_S100006_230906_ROW && cd XT2261-2_S100006_230906_ROW
               aria2c -x16 -s8 --console-log-level=warn --summary-interval=0 --check-certificate=false "https://mirrors.lolinet.com/firmware/motorola/tablet/tab_g62/official/LTE/XT2261-2_S100006_230906_ROW.zip"
               7z e -y "XT2261-2_S100006_230906_ROW.zip"
               rm XT2261-2_S100006_230906_ROW.zip
