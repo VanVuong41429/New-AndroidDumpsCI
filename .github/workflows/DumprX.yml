@@ -78,4 +78,6 @@ jobs:
               mv super_4.img system_ext.img
               mv super_5.img vendor.img
               cd ..
+              zip -r XT2261-2_S100006_230906_ROW.zip XT2261-2_S100006_230906_ROW/
+              rm -rf XT2261-2_S100006_230906_ROW
               ./dumper.sh "$ROM_URL"
