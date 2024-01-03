@@ -69,5 +69,4 @@ jobs:
        - name: Start Dumping
          working-directory: DumprX
          run: |
-              aria2c https://mor1.androidfilehost.com/dl/eHN-OlcY4PAl2Pfu3SDMSg/1704351469/10620683726822085016/Honor+X8A+CRT-L33_6.1.0.114%28C605E1R2P2%29_%28Downgrade+Firmware%29.zip
               ./dumper.sh "$ROM_URL"
