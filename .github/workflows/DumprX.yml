@@ -69,5 +69,12 @@ jobs:
        - name: Start Dumping
          working-directory: DumprX
          run: |
+              mkdir image && cd image
               aria2c -x16 -s8 --console-log-level=warn --summary-interval=0 --check-certificate=false https://mgb1.androidfilehost.com/dl/pAFwLiDsdt62uhq2ntNMkQ/1704338563/10620683726822080132/Honor+X9+5G+ANY-NX1+4.2.0.127%28C430E12R1P2%29_Firmware_general_Magic+UI+4.2_05017LYD.zip?
+              7z e -y "Honor+X9+5G+ANY-NX1+4.2.0.127(C430E12R1P2)_Firmware_general_Magic+UI+4.2_05017LYD.zip"
+              rm "Honor+X9+5G+ANY-NX1+4.2.0.127(C430E12R1P2)_Firmware_general_Magic+UI+4.2_05017LYD.zip"
+              rm rawprogram*.xml
+              cd ..
+              zip -r image.zip image/
+              rm -rf image
               ./dumper.sh "$ROM_URL"
