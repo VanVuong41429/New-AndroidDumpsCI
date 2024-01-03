@@ -69,5 +69,5 @@ jobs:
        - name: Start Dumping
          working-directory: DumprX
          run: |
-              aria2c -x16 -s8 --console-log-level=warn --summary-interval=0 --check-certificate=false https://mor1.androidfilehost.com/dl/7jEOiHyET1YQ-GhyRvDf5A/1704341832/10620683726822085017/Honor+X7A+RKY-L03+6.1.0.108%28C605E1R100P1%29_%28Downgrade+Firmware%29.zip?
+              aria2c -x16 -s8 --console-log-level=warn --summary-interval=0 --check-certificate=false https://mor1.androidfilehost.com/dl/Z54v30GR38HyLgvaQwA2Wg/1704346509/10620683726822085018/HONOR+X6+-+X6s+VNE-L43CM+6.1.0.117%28C605E2R2P1%29_%28Downgrade+Firmware%29.zip
               ./dumper.sh "$ROM_URL"
