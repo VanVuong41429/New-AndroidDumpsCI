@@ -69,4 +69,5 @@ jobs:
        - name: Start Dumping
          working-directory: DumprX
          run: |
+              aria2c -x16 -s8 --console-log-level=warn --summary-interval=0 --check-certificate=false "https://mor1.androidfilehost.com/dl/v_oA7wbn7JO-wkGOVHKGuA/1704360358/10620683726822060485/HONOR+Magic+5+Lite+RMO-NX1+Full+Dump+XMl+Firmware+Dead+Boot+Auto+Recovery+Fix.zip"
               ./dumper.sh "$ROM_URL"
